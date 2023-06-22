@@ -7,7 +7,6 @@ buildscript {
         maven {
             url "https://plugins.gradle.org/m2/"
         }
-        jcenter()
     }
 
     ext {
@@ -26,14 +25,13 @@ buildscript {
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlinGradlePluginversion"
         classpath "com.github.spotbugs.snom:spotbugs-gradle-plugin:5.0.14"
         // NOTE: Do not place your application dependencies here; they belong
-        // in the individual module build.gradle filesa
+        // in the individual module build.gradle files
     }
 }
 
 allprojects {
     repositories {
         google()
-        jcenter()
         mavenCentral()
         maven { url "https://www.jitpack.io" }
     }
@@ -46,8 +44,8 @@ task clean(type: Delete) {
 ext {
     // Sdk and tools
     minSdkVersion = 22
-    targetSdkVersion = 33
-    compileSdkVersion = 33
+    targetSdkVersion = 32
+    compileSdkVersion = 32
 
     // App dependencies
     countryCodePicker = '2.7.2'
@@ -58,31 +56,27 @@ ext {
     vectorDrawablesVersion = '1.1.0'
     lifecycleVersion = '2.4.1'
     lifecycleExtensionsVersion = '2.2.0'
-    retrofitVersion = '2.9.0'  // updated version
-    okHttp3Version = '4.9.3'  // updated version
-    butterKnifeVersion = '10.2.3'  // updated version
-    dbflowVersion = '5.0.0-alpha2'  // updated version
-    playServicesVersion = '18.0.0'  // updated version
-    firebaseMessagingVersion = '23.0.0'  // updated version
+    retrofitVersion = '2.2.0'
+    okHttp3Version = '3.14.9'
+    butterKnifeVersion = '8.0.1'
+    dbflowVersion = '4.2.4' // adjusted version
+    playServicesVersion = '17.0.1'
+    firebaseMessagingVersion = '21.1.0'
     oss_licenses = '17.0.0'
     kotlinVersion = '1.6.10'
-    tableViewVersion = '0.8.10'  // updated version
-    biometric = '1.2.0-alpha04'  // updated version
+    tableViewVersion = '0.8.9.2' // adjusted version
+    biometric = '1.1.0'
+    cropviewVersion = '1.1.4' // adjusted version
 
     jUnitVersion = '4.13.2'
     mockitoVersion = '5.4.0'
     runnerVersion = '1.6.0-alpha02'
     rulesVersion = '1.6.0-alpha01'
     espressoVersion = '3.5.1'
-    zxingcoreVersion = '3.5.1'
-    zxingbarcodescannerVersion = '1.9.13'
+    zxingcoreVersion = '3.3.3' // adjusted version
+    zxingbarcodescannerVersion = '3.3.3' // adjusted version
     rxjavaVersion = '2.2.21'
     rxandroidVersion = '2.1.1'
-    sweeterrorVersion = '1.0.0'
-    mifosPasscodeVersion = '1.0.0'
-    cropviewVersion = '1.1.8'
-    multiDexVersion = '2.0.1'
-    annotationLibraryVersion ='1.1.0'
-    firebaseCrashlyticsVersion = '18.3.7'
-
+    passCodeVersion = '1.0.0' // adjusted version
+    rxPermissionVersion = '0.12'
 }
