@@ -15,6 +15,7 @@ buildscript {
         ossLicensesVersion = '0.10.5'
         googleServicesVersion = '4.3.15'
         kotlinGradlePluginversion = '1.6.21'
+        firebaseCrashlyticsVersion = '2.2.0' // I've updated the version here
     }
 
     dependencies {
@@ -48,6 +49,7 @@ ext {
     compileSdkVersion = 32
 
     // App dependencies
+    firebaseCrashlyticsVersion = '2.2.0'  // I've updated the version here
     countryCodePicker = '2.7.2'
     supportLibraryVersion = '1.4.2'
     designLibraryVersion = '1.9.0'
