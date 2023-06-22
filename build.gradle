@@ -58,16 +58,16 @@ ext {
     vectorDrawablesVersion = '1.1.0'
     lifecycleVersion = '2.4.1'
     lifecycleExtensionsVersion = '2.2.0'
-    retrofitVersion = '2.2.0'
-    okHttp3Version = '3.14.9'
-    butterKnifeVersion = '8.0.1'
-    dbflowVersion = '4.2.4'
-    playServicesVersion = '17.0.1'
-    firebaseMessagingVersion = '21.1.0'
+    retrofitVersion = '2.9.0'  // updated version
+    okHttp3Version = '4.9.3'  // updated version
+    butterKnifeVersion = '10.2.3'  // updated version
+    dbflowVersion = '5.0.0-alpha2'  // updated version
+    playServicesVersion = '18.0.0'  // updated version
+    firebaseMessagingVersion = '23.0.0'  // updated version
     oss_licenses = '17.0.0'
     kotlinVersion = '1.6.10'
-    tableViewVersion = '0.8.9.4'
-    biometric = '1.1.0'
+    tableViewVersion = '0.8.10'  // updated version
+    biometric = '1.2.0-alpha04'  // updated version
 
     jUnitVersion = '4.13.2'
     mockitoVersion = '5.4.0'
