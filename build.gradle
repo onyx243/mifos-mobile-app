@@ -50,17 +50,17 @@ ext {
 
     // App dependencies
     firebaseCrashlyticsVersion = '2.9.6' // Updated version
-    countryCodePicker = '2.7.2'
+    countrycodepicker = '2.7.2'
     supportLibraryVersion = '1.4.2'
     designLibraryVersion = '1.9.0'
     daggerVersion = '2.46.1'
-    recyclerViewVersion = '1.2.1'
-    vectorDrawablesVersion = '1.1.0'
+    recyclerviewVersion = '1.2.1'
+    vectordrawablesVersion = '1.1.0'
     lifecycleVersion = '2.4.1'
     lifecycleExtensionsVersion = '2.2.0'
     retrofitVersion = '2.2.0'
-    okHttp3Version = '3.14.9'
-    butterKnifeVersion = '8.0.1'
+    okhttp3Version = '3.14.9'
+    butterknifeVersion = '8.0.1'
     dbflowVersion = '4.2.4'
     playServicesVersion = '17.0.1'
     firebaseMessagingVersion = '21.1.0'
@@ -69,6 +69,7 @@ ext {
     tableViewVersion = 'v0.8.9.4' // Updated version
     biometric = '1.1.0'
     cropviewVersion = '1.1.1' // Updated version
+
 
     jUnitVersion = '4.13.2'
     mockitoVersion = '5.4.0'
