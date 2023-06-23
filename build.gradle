@@ -15,7 +15,7 @@ buildscript {
         ossLicensesVersion = '0.10.5'
         googleServicesVersion = '4.3.15'
         kotlinGradlePluginversion = '1.6.21'
-        firebaseCrashlyticsVersion = '2.2.0' // I've updated the version here
+        firebaseCrashlyticsVersion = '2.7.1' // Updated version
     }
 
     dependencies {
@@ -49,7 +49,7 @@ ext {
     compileSdkVersion = 32
 
     // App dependencies
-    firebaseCrashlyticsVersion = '2.2.0'  // I've updated the version here
+    firebaseCrashlyticsVersion = '2.7.1'  // Updated version
     countryCodePicker = '2.7.2'
     supportLibraryVersion = '1.4.2'
     designLibraryVersion = '1.9.0'
@@ -61,24 +61,24 @@ ext {
     retrofitVersion = '2.2.0'
     okHttp3Version = '3.14.9'
     butterKnifeVersion = '8.0.1'
-    dbflowVersion = '4.2.4' // adjusted version
+    dbflowVersion = '4.2.4'
     playServicesVersion = '17.0.1'
     firebaseMessagingVersion = '21.1.0'
     oss_licenses = '17.0.0'
     kotlinVersion = '1.6.10'
-    tableViewVersion = '0.8.9.2' // adjusted version
+    tableViewVersion = '0.8.9.3' // Updated version
     biometric = '1.1.0'
-    cropviewVersion = '1.1.4' // adjusted version
+    cropviewVersion = '1.1.8' // Updated version
 
     jUnitVersion = '4.13.2'
     mockitoVersion = '5.4.0'
     runnerVersion = '1.6.0-alpha02'
     rulesVersion = '1.6.0-alpha01'
     espressoVersion = '3.5.1'
-    zxingcoreVersion = '3.3.3' // adjusted version
-    zxingbarcodescannerVersion = '3.3.3' // adjusted version
+    zxingcoreVersion = '3.4.0' // Updated version
+    zxingbarcodescannerVersion = '3.4.0' // Updated version
     rxjavaVersion = '2.2.21'
     rxandroidVersion = '2.1.1'
-    passCodeVersion = '1.0.0' // adjusted version
+    passCodeVersion = '1.1.0' // Updated version
     rxPermissionVersion = '0.12'
 }
