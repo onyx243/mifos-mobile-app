@@ -103,7 +103,7 @@ dependencies {
     implementation "com.isseiaoki:simplecropview:$rootProject.cropviewVersion"
 
     //Country Code picker
-    implementation "com.hbb20:ccp:$rootProject.countryCodePicker"
+    implementation "com.hbb20:ccp:$rootProject.countrycodepicker"
 
     //Square dependencies
     implementation("com.squareup.retrofit2:retrofit:$rootProject.retrofitVersion") {
