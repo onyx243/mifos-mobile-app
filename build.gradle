@@ -34,12 +34,12 @@ allprojects {
     repositories {
         google()
         mavenCentral()
-        maven { url "https://www.jitpack.io" }
-        maven { url "https://www.jitpack.io" }
+        // maven { url "https://www.jitpack.io" }
         maven { url "https://jitpack.io/#isseiaoki/SimpleCropView" } // SimpleCropView
         maven { url "https://github.com/dm77/barcodescanner" } // DM7 BarcodeScanner ZXing
         maven { url "https://github.com/openMF/mifos-passcode" } // Mifos Passcode
         maven { url "https://github.com/evrencoskun/TableView" } // TableView
+        maven { url "https://www.jitpack.io" }
     }
 }
 
