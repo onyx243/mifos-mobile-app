@@ -62,7 +62,7 @@ ext {
     okhttp3Version = '3.14.9'
     butterknifeVersion = '8.0.1'
     dbflowVersion = '4.2.4'
-    playServicesVersion = '17.0.1'
+    playServicesVersion = '18.1.0'
     firebaseMessagingVersion = '21.1.0'
     recyclerViewVersion = '1.2.1'
     oss_licenses = '17.0.0'
