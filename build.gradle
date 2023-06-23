@@ -34,7 +34,7 @@ allprojects {
     repositories {
         google()
         mavenCentral()
-        // maven { url "https://www.jitpack.io" }
+        maven { url "https://www.jitpack.io" }
         maven { url "https://jitpack.io/#isseiaoki/SimpleCropView" } // SimpleCropView
         maven { url "https://github.com/dm77/barcodescanner" } // DM7 BarcodeScanner ZXing
         maven { url "https://github.com/openMF/mifos-passcode" } // Mifos Passcode
@@ -72,9 +72,9 @@ ext {
     recyclerViewVersion = '1.2.1'
     oss_licenses = '17.0.0'
     kotlinVersion = '1.6.10'
-    tableViewVersion = 'v0.8.9.4' // Updated version
+    tableViewVersion = '0.8.9.4' // Updated version
     biometric = '1.1.0'
-    cropviewVersion = '1.1.8' // Updated version
+    cropviewVersion = '1.1.1' // Updated version
 
 
     jUnitVersion = '4.13.2'
@@ -83,7 +83,7 @@ ext {
     rulesVersion = '1.6.0-alpha01'
     espressoVersion = '3.5.1'
     zxingcoreVersion = '3.4.1' // Updated version
-    zxingbarcodescannerVersion = '1.9.13' // Updated version
+    zxingbarcodescannerVersion = '1.9.8' // Updated version
     rxjavaVersion = '2.2.21'
     rxandroidVersion = '2.1.1'
     passCodeVersion = '1.1.0' // Updated version
