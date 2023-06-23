@@ -65,7 +65,7 @@ ext {
     playServicesVersion = '17.0.1'
     firebaseMessagingVersion = '21.1.0'
     recyclerViewVersion = '1.2.1'
-    oss_licenses = '17.0.0'
+    oss_licenses = '17.0.1'
     kotlinVersion = '1.6.10'
     tableViewVersion = 'v0.8.9.4' // Updated version
     biometric = '1.1.0'
