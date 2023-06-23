@@ -15,7 +15,7 @@ buildscript {
         ossLicensesVersion = '0.10.5'
         googleServicesVersion = '4.3.15'
         kotlinGradlePluginversion = '1.6.21'
-        firebaseCrashlyticsVersion = '2.7.1' // Updated version
+        firebaseCrashlyticsVersion = '18.2.1' // Updated version
     }
 
     dependencies {
@@ -49,7 +49,7 @@ ext {
     compileSdkVersion = 32
 
     // App dependencies
-    firebaseCrashlyticsVersion = '2.9.6' // Updated version
+    firebaseCrashlyticsVersion = '18.2.1' // Updated version
     countrycodepicker = '2.7.2'
     supportLibraryVersion = '1.4.2'
     designLibraryVersion = '1.9.0'
@@ -69,7 +69,7 @@ ext {
     kotlinVersion = '1.6.10'
     tableViewVersion = 'v0.8.9.4' // Updated version
     biometric = '1.1.0'
-    cropviewVersion = '1.1.1' // Updated version
+    cropviewVersion = '1.1.8' // Updated version
 
 
     jUnitVersion = '4.13.2'
@@ -77,7 +77,7 @@ ext {
     runnerVersion = '1.6.0-alpha02'
     rulesVersion = '1.6.0-alpha01'
     espressoVersion = '3.5.1'
-    zxingcoreVersion = '1.9.13' // Updated version
+    zxingcoreVersion = '3.4.1' // Updated version
     zxingbarcodescannerVersion = '1.9.13' // Updated version
     rxjavaVersion = '2.2.21'
     rxandroidVersion = '2.1.1'
